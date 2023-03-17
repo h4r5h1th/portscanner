@@ -45,7 +45,6 @@ def check():
             print(termcolor.colored("!there are no open ports for the given device","red"))
         print(termcolor.colored("\nTotal Ports: "+str(total),"magenta")+termcolor.colored("\t\tClosed Ports: "+str(close),"red")+termcolor.colored("\t\tOpen Ports: "+str(open),"green"))
 
-
 targets = input(termcolor.colored("Enter target(s) to scan","yellow")+termcolor.colored(" (split them by ,)","magenta")+termcolor.colored(": ","yellow"))
 ports = int(input(termcolor.colored("Enter no of ports upto which you want to scan : ","yellow")))
 
